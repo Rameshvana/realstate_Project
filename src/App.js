@@ -1,11 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
-import MainComponent from './Components/Main/main.component';
+import LoginComponent from './Components/Login/login.component';
+import MainComponent from './Components/MainComponent/main.component';
 
 const App = () => (
-   
+  <>
    <MainComponent/>
-   
+  </>
 )
 
-export default App
+
+export default App;

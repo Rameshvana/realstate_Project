@@ -1,0 +1,93 @@
+   /* Style the body element */
+   .body {
+          font-family: Arial, Helvetica, sans-serif;
+          margin: 0;
+          background-image: url("https://demo.erealestate.eaccount.xyz/asset/layout/images/banner.jpg");
+          background-size: cover;
+          height: 100vh;
+        }
+    
+        /* Style the login container */
+        .login-container {
+          width: 600px;
+          height: 500px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          background-color: rgba(52, 152, 219,0.5);
+          border-radius: 10px;
+          box-shadow: 0 0 3px black;
+          padding: 20px;
+        }
+    
+        /* Style the login icon */
+        .login-icon {
+          width: 60px;
+          height: 60px;
+          border-radius: 10px;
+          margin: 0 auto;
+          display: block;
+        }
+    
+        /* Style the login title */
+        .login-title {
+          text-align: center;
+          font-size: 30px;
+          color: white;
+          margin-top: 20px;
+          font-weight: bold;
+        }
+    
+        /* Style the input fields */
+        .login-input {
+          width: 80%;
+          margin: 20px auto;
+          display: block;
+          padding: 10px;
+          border: none;
+          outline: none;
+          font-size: 16px;
+          border-radius: 5px;
+        }
+    
+        /* Style the input placeholders */
+        .login-input::placeholder {
+          color: gray;
+        }
+    
+        /* Style the remember me checkbox */
+        .login-remember {
+          margin-left: 10%;
+          display: inline-block;
+          color: white;
+          font-size: 16px;
+        }
+    
+        /* Style the login button */
+        .login-button {
+          width: 80%;
+          margin: 10px auto;
+          display: block;
+          padding: 10px;
+          border: none;
+          outline: none;
+          font-size: 18px;
+          color: white;
+          background-color: green;
+          cursor: pointer;
+        }
+    
+        /* Style the login button on hover */
+        .login-button:hover {
+          background-color: darkgreen;
+        }
+    
+        /* Style the demo login credentials */
+        .login-demo {
+          width: 80%;
+          margin: 10px auto;
+          display: block;
+          color: white;
+          font-size: 14px;
+        }

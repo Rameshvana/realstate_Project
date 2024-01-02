@@ -1,0 +1,220 @@
+
+.top-text {
+          margin: 0 !important;
+          color: #666 !important;
+          font-weight: normal;
+          font-size: 18px;
+          padding-top: 10px;
+}
+
+.Pdash-icon-card {
+          background-color: rgba(0, 0, 0, 0.12);
+}
+
+.Pdash-card {
+          display: flex;
+          align-items: center;
+          background-color: #E91E63;
+          color: #fff;
+          margin-top: 10px;
+          border-radius: 3px;
+}
+
+.dash-icon {
+          font-size: 54px;
+          margin: 10px;
+}
+
+.text-card {
+          padding-left: 10px;
+}
+
+.dash-span {
+          font-size: 20px;
+}
+
+.Ldash-icon-card {
+          background-color: rgba(0, 0, 0, 0.05);
+}
+
+.Ldash-card {
+          display: flex;
+          align-items: center;
+          background-color: #00BCD4 !important;
+          color: #fff;
+          margin-top: 10px;
+}
+
+.Ledash-icon-card {
+          background-color: rgba(0, 0, 0, 0.12);
+}
+
+.Ledash-card {
+          display: flex;
+          align-items: center;
+          background-color: #9C27B0 !important;
+          color: #fff;
+          margin-top: 10px;
+}
+
+.Leddash-icon-card {
+          background-color: rgba(0, 0, 0, 0.12);
+}
+
+.Leddash-card {
+          display: flex;
+          align-items: center;
+          background-color: #8BC34A !important;
+          color: #fff;
+          margin-top: 10px;
+          margin-right: 15px;
+}
+
+.Bdash-icon-card {
+          background-color: rgba(0, 0, 0, 0.12);
+}
+
+.Bdash-card {
+          display: flex;
+          align-items: center;
+          background-color: #607D8B !important;
+          color: #fff;
+          margin-top: 20px;
+          border-radius: 2px;
+}
+
+.Udash-icon-card {
+          background-color: rgba(0, 0, 0, 0.12);
+}
+
+.Udash-card {
+          display: flex;
+          align-items: center;
+          background-color: #FF9800 !important;
+          color: #fff;
+          margin-top: 20px;
+          border-radius: 2px;
+}
+
+.Rdash-icon-card {
+          background-color: rgba(0, 0, 0, 0.12);
+}
+
+.Rdash-card {
+          display: flex;
+          align-items: center;
+          background-color: #F44336 !important;
+          color: #fff;
+          margin-top: 20px;
+          border-radius: 2px;
+}
+
+.Redash-icon-card {
+          background-color: rgba(0, 0, 0, 0.12);
+}
+
+.Redash-card {
+          display: flex;
+          align-items: center;
+          background-color: #795548 !important;
+          color: #fff;
+          margin:20px 15px 0px 0px;
+          margin-top: 20px;
+          border-radius: 2px;
+}
+
+
+
+
+
+.quick {
+background-color: #fff;
+color: #555;
+padding: 15px;
+margin-top: 15px;
+margin:15px 8px 0px 0px;
+position: relative;
+border-bottom: 1px solid rgba(204, 204, 204, 0.35);
+box-sizing: border-box;
+display: block;
+box-shadow: 1px 1px 2px 2px grey;
+
+}
+
+
+.am{
+font-size: 13px;          
+}
+
+.dashbord-containerx{
+background-color: #555;
+padding-right: 30px;         
+}
+
+.box {
+border-radius: 3px;
+margin:10px 13px 10px 0px;
+border: none;
+background-color: #E91E63 !important;
+border-bottom: none !important;
+position: relative;
+cursor: pointer;
+display: inline-block;
+overflow: hidden;
+line-height: 1.42857143;
+text-align: center;
+vertical-align: middle;
+padding:7px 20px 3px 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+}
+
+.b1{
+background-color: #4CAF50 !important;
+}
+.b2{
+background-color: #FFC107 !important;
+}
+.b3{
+background-color: #000000 !important;
+}
+.b4{
+background-color: #00BCD4 !important;
+}
+.b5{
+background-color: #FF9800 !important;
+}
+.b6{
+background-color: #673AB7 !important;
+}
+.b7{
+background-color: #2196F3 !important;
+}
+.b8{
+background-color: #009688 !important;
+}
+.b9{
+background-color: #8BC34A !important;
+}
+.b10{
+background-color: #00BCD4 !important;
+}
+.b11{
+background-color: #795548 !important;
+}
+.b12{
+background-color: #CDDC39 !important;
+}
+.b13{
+background-color: #FF5722 !important;
+}
+
+.boxes {
+display: flex;
+flex-wrap: wrap;
+}
+
+
+
