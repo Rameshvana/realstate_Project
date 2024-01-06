@@ -1,14 +1,10 @@
 .nav-text {
-  height: 50px;
+  height: 48px;
   padding: 15px 15px;
-  font-size: 21px;
+  font-size:19px;
   line-height: 20px;
   color: #fff;
-  margin-left: 20px;
-}
-
-.hi{
-  display: flex;
+  margin-left: 15px;
 }
 
 .navbar {
@@ -19,36 +15,37 @@
 .icon {
   margin-right: 20px;
   color: #fff;
-  font-size: 27px;
+  font-size: 28px;
 }
 
 .nav-icon {
   font-size: 26px;
   margin-right: 6px;
-
 }
 
 
 span {
-  font-weight: 500;
-  font-size: 16px;
-  margin-left: 5px;
+  margin: 7px 0 7px 12px;
+  color: #333;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 .nav-links {
   list-style-type: none;
   border: 1px solid #747474;
   border-bottom: none;
-  
-  padding: 12px;
-  overflow: scroll;
+  border-top: none;
+  padding:13px;
+  font-style:italic;
+  overflow-y: scroll;
 }
 
 .nav-linkD {
   display: flex;
   align-items: center;
-  margin-top: 5px;
   color: #03A9F4;
+  font-style:italic;
 }
 
 .nav-link {
@@ -70,8 +67,10 @@ span {
 .sub-menu {
   list-style: none;
   margin-top: 10px;
+  padding-left:35px;
+  font-style:normal;
   display: none;
-  color:#747474
+  color:#747474;
 }
 
 .sub-item{
@@ -79,7 +78,32 @@ span {
   margin-top: 5px;
   font-weight: 350;
 }
+.a {
+  list-style: none;
+  margin-top: 10px;
+  padding-left:35px;
+  font-style:normal;
+  display: block;
+  font-weight: 500;
+  color:#747474;
+}
 
 .cal{
   margin-top:27px;
 }
+.copyrigth{
+font-weight: 500;
+font-size:14px;
+display: block;
+padding:15px 1px 1px 20px;
+border:solid 1px whitesmoke;
+position: fixed;
+bottom: 0;
+right: 10;
+width:229px;
+background-color: white;
+}
+.copy-span{
+  color:cornflowerblue;
+}
+

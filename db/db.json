@@ -1,0 +1,64 @@
+{
+  "project": [
+    {
+      "id": 1,
+      "name": "Ramesh",
+      "location": "Hydrabad",
+      "description": "Hello good morning"
+    },
+    {
+      "id": 2,
+      "name": "Anil",
+      "location": "Hydrabad",
+      "description": "Hello Anil good"
+    }
+  ],
+  "prodect": [
+    {
+      "id": 1,
+      "projectName": "Ramesh",
+      "flattype": "A",
+      "flatnumber": "1",
+      "flatsize": "1",
+      "unitprice": "1",
+      "parkingcharge": "0",
+      "utiltycharge": "1",
+      "discount": "0",
+      "Description": "Hai"
+    },
+    {
+      "id": 2,
+      "projectName": "Ramesh",
+      "flattype": "A",
+      "flatnumber": "1",
+      "flatsize": "1",
+      "unitprice": "1",
+      "parkingcharge": "0",
+      "utiltycharge": "1",
+      "discount": "0",
+      "Description": "Hai"
+    },
+    {
+      "id": 3,
+      "projectName": "Ramesh",
+      "flattype": "C",
+      "flatnumber": "7",
+      "flatsize": "2",
+      "unitprice": "7",
+      "parkingcharge": "7",
+      "utiltycharge": "2",
+      "discount": "88",
+      "Description": "45"
+    }
+  ],
+  "login": [
+    {
+      "Email": "admin@account.xyz",
+      "Password": 1234
+    },
+    {
+      "Email": "accountant@account.xyz",
+      "Password": 1234
+    }
+  ]
+}

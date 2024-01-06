@@ -7,11 +7,11 @@ import { CiSettings } from "react-icons/ci";
 import { TiMinus } from "react-icons/ti";
 import { useState } from "react";
 
-import './main.component.css';
+import './admin.component.css'
 import DashbordComponent from "../Dashbord/dashbord.component";
 import HomeComponent from "../Hme";
 
-function MainComponent() {
+function AdminComponent() {
   const [activeProduct,setactiveProduct] = useState(false)
   const [activeproject,setactiveproject] = useState(false)
   const [activesell,setactivesell] = useState(false)
@@ -35,21 +35,17 @@ function MainComponent() {
 
 
   return (
-    <div>
-      <div className="row">
-
-        <div className="col-2">
            <div>
           <ul className="nav-links">
-            <a href='#HomeSection'> <li className='nav-linkD'><MdDashboard className='nav-icon' /><span>Dashbord</span></li></a>
+            <a href='/Dashbord'> <li className='nav-linkD'><MdDashboard className='nav-icon' /><span>Dashbord</span></li></a>
             <div className="Project">
               <a href='#'> <li className='nav-link' onClick={() => setactiveproject(!activeproject)}>
                 <div><FaProjectDiagram className='nav-icon' /><span>Project</span></div>
                 {activeproject ? <TiMinus className="plus-icon" /> : <GoPlus className="plus-icon"/>}
                 </li></a>
               <ul className={activeproject ? 'a' : 'sub-menu'}>
-                <a href="#"><li className="sub-item">All</li></a>
-                <a href="#"><li className="sub-item">Create</li></a>
+                <a href="/project-all"><li className="sub-item">All</li></a>
+                <a href="/project-create"><li className="sub-item">Create</li></a>
                 <a href="#"><li className="sub-item">Trashed</li></a>
               </ul>
             </div>
@@ -58,8 +54,8 @@ function MainComponent() {
               { activeProduct ?  <TiMinus className="plus-icon" /> : <GoPlus className="plus-icon" />}
               </li></a>
               <ul className={activeProduct ? 'a' : 'sub-menu' }>
-                <a href="#"><li className="sub-item">All</li></a>
-                <a href="#"><li className="sub-item">Create</li></a>
+                <a href="/prodect-all"><li className="sub-item">All</li></a>
+                <a href="/prodect-create"><li className="sub-item">Create</li></a>
                 <a href="#"><li className="sub-item">Trashed</li></a>
               </ul>
             </div>
@@ -70,7 +66,7 @@ function MainComponent() {
               </li></a>
               <ul className={activesell ? 'a' : 'sub-menu'}>
                 <a href="#"><li className="sub-item">All</li></a>
-                <a href="#"><li className="sub-item">Create</li></a>
+                <a href="/sell-create"><li className="sub-item">Create</li></a>
                 <a href="#"><li className="sub-item">Trashed</li></a>
               </ul>
             </div>
@@ -201,11 +197,8 @@ function MainComponent() {
           </p>
         </div> 
           </div>
-        </div>
-
-        </div>
-      </div>
+      
   )
 }
 
-export default MainComponent
+export default AdminComponent

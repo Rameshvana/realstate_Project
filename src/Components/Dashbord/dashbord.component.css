@@ -1,14 +1,11 @@
-
-.top-text {
-          margin: 0 !important;
-          color: #666 !important;
-          font-weight: normal;
-          font-size: 18px;
-          padding-top: 10px;
+.project-text{
+font-size: 19px;
+font-weight: bold;
 }
 
+
 .Pdash-icon-card {
-          background-color: rgba(0, 0, 0, 0.12);
+    background-color: rgba(0, 0, 0, 0.12);
 }
 
 .Pdash-card {
@@ -21,20 +18,25 @@
 }
 
 .dash-icon {
-          font-size: 54px;
-          margin: 10px;
+ font-size: 54px;
+ margin: 10px;
 }
-
 .text-card {
-          padding-left: 10px;
+ padding-left: 10px;
+}
+.dash-span {
+ font-size: 20px;
+ color:#fff;
 }
 
-.dash-span {
-          font-size: 20px;
+.ca{
+  display: flex;
+  align-items: center;  
+  color:#fff;
 }
 
 .Ldash-icon-card {
-          background-color: rgba(0, 0, 0, 0.05);
+background-color: rgba(0, 0, 0, 0.05);
 }
 
 .Ldash-card {
@@ -124,7 +126,14 @@
 }
 
 
+.top-text {
+margin: 0 !important;
+color: #555 !important;
+font-size:18px;
+font-weight: 400;
+padding-top: 10px;
 
+}
 
 
 .quick {
@@ -146,9 +155,12 @@ box-shadow: 1px 1px 2px 2px grey;
 font-size: 13px;          
 }
 
-.dashbord-containerx{
-background-color: #555;
-padding-right: 30px;         
+.dashbord-container{
+padding-right: 30px; 
+padding:10px;
+overflow-y: scroll;
+overflow-x: hidden;
+
 }
 
 .box {
@@ -216,5 +228,11 @@ display: flex;
 flex-wrap: wrap;
 }
 
-
-
+.dash-img{
+   height: 55vh; 
+   width:42vw;
+}
+.images-card{
+  display: flex;
+  margin-top: 25px;  
+}

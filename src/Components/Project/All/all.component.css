@@ -1,0 +1,23 @@
+.all-box{
+  border:solid;
+  background-color: #00b0e4 !important;
+  color:white;
+  padding:5px 15px 5px 15px;
+  border-radius: 6px;
+}
+.trash-box{
+    border:solid;
+    background-color: #fb483a !important;
+    color:white;
+    padding:5px 15px 5px 15px;
+    border-radius: 6px;
+}
+
+.serch-input{
+ padding:4px;
+ border-radius: 4px;   
+}
+.creat-top-all{
+   display: flex;
+   justify-content: space-between; 
+}
