@@ -8,12 +8,14 @@ import AdminComponen from './Components/Admin/admin.component'
 import DashbordComponent from "./Components/Dashbord/dashbord.component";
 
 import { Routing } from "./Routing.js";
+import HomeComponent from "./Components/Home/index.js";
 
 
 
 
 const App = () => (
     <BrowserRouter>
+       
        <appRouter/>
        <Routing/>
        

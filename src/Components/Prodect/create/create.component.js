@@ -4,11 +4,13 @@ import { FaHome ,FaProjectDiagram} from "react-icons/fa";
 import { MdOutlineUnarchive } from "react-icons/md";
 
 import AdminComponent from '../../Admin/admin.component'
-import HomeComponent from '../../Hme'
+import { FaBoxesStacked ,FaReceipt} from "react-icons/fa6";
+
 
 import './creat.component.css'
 import { gettheData, saveprodectData } from '../../../services/user.service'
 import { AuthRoute } from '../../../services/AuthRoute';
+import HomeComponent from '../../Home';
 
 let flattype = ['A', 'B', 'C', 'D', 'F', 'G', 'H', 'I']
 let flonum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
@@ -60,7 +62,7 @@ function CreateProdectComp() {
     <AuthRoute>
 
     <div>
-      <HomeComponent />
+      <HomeComponent/>
       <div className='row'>
         <div className='col-2'><AdminComponent /></div>
         <div className='col-10'>
@@ -69,8 +71,8 @@ function CreateProdectComp() {
             <div className='creat-top'>
               <button type='button' className='btn btn-primary' onClick={() => navigate('/dashbord')}>Back</button>
               <ul className='creat-links'>
-                <li className='nav-item'><a href='#'><FaHome className='creat-icon' /><b>Home</b></a></li>
-                <li className='nav-item'><a href='#'><FaProjectDiagram className='creat-icon' /><b>Project Manage</b></a></li>
+                <li className='nav-item' onClick={()=> navigate('/prodect-all')}><a href=''><FaHome className='creat-icon' /><b>Home</b></a></li>
+                <li className='nav-item'><a href='#'><FaBoxesStacked className='creat-icon' /><b>Project Manage</b></a></li>
                 <li className='nav-item'><MdOutlineUnarchive className='creat-icon' /><b>Create</b></li>
               </ul>
               <div>

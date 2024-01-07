@@ -5,7 +5,7 @@ export function AuthRoute(props){
     let value = false
     //let navigate = useNavigate()
      value = localStorage.getItem('User')
-     console.log(value)
+     //console.log(value)
 
      if ( value ){
         return props.children;

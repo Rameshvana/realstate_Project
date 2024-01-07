@@ -1,11 +1,11 @@
  import './create.component.css'
- import HomeComponent from '../../Hme/index'
 import AdminComponent from '../../Admin/admin.component'
 import { FaHome ,FaProjectDiagram} from "react-icons/fa";
 import { MdOutlineUnarchive } from "react-icons/md";
 import { gettheData, savetheData } from '../../../services/user.service';
 import { useNavigate } from "react-router-dom";
 import { AuthRoute } from '../../../services/AuthRoute';
+import HomeComponent from '../../Home';
 
 
  function CreateProjectComp(){
@@ -45,7 +45,7 @@ import { AuthRoute } from '../../../services/AuthRoute';
                 <div className='creat-top'>
                   <button type='button' className='btn btn-primary' onClick={()=> navigate('/dashbord')}>Back</button>
                   <ul className='creat-links'>
-                    <li className='nav-item'><a href='#'><FaHome className='creat-icon'/><b>Home</b></a></li>
+                    <li className='nav-item' onClick={()=> navigate('/project-all')}><a href=''><FaHome className='creat-icon'/><b>Home</b></a></li>
                     <li className='nav-item'><a href='#'><FaProjectDiagram className='creat-icon'/><b>Project Manage</b></a></li>
                     <li className='nav-item'><MdOutlineUnarchive className='creat-icon'/><b>Create</b></li>
                   </ul>
@@ -58,9 +58,9 @@ import { AuthRoute } from '../../../services/AuthRoute';
                 <p>Put Project Manage Information</p>
                 <div className='input-card'>
                   <input type='text' id = 'name' placeholder='Name*' name='name'  class="form-control-plaintext input" required/> 
-                  <input type='text' id = 'location' placeholder='Location*' class="form-control-plaintext input-location" required/>
+                  <input type='text' id = 'location' placeholder='Location' class="form-control-plaintext input-location" required/>
                 </div>
-                <textarea id='description'cols='150' rows='1' placeholder='Description*' className='form-control-plaintext mt-4 input' required></textarea>
+                <textarea id='description'cols='150' rows='1' placeholder='Description' className='form-control-plaintext mt-4 input' required></textarea>
                 <button type='submit' className='btn btn-primary mt-4'>Save</button>
                 </div>
               </form>

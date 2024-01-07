@@ -31,3 +31,11 @@ let loginUrl = 'http://localhost:8000/login/'
 export function getloginData(){
   return getData(loginUrl)
 }
+
+
+
+let sellUrl = 'http://localhost:8000/sell/'
+
+export function savesellData(data){
+  return saveData(sellUrl,data)
+}

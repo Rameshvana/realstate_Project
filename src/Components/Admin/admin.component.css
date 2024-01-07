@@ -39,13 +39,15 @@
     padding:13px;
     font-style:italic;
     overflow-y: scroll;
+    height: 78vh;
   }
   
   .nav-linkD {
     display: flex;
     align-items: center;
     color: #03A9F4;
-    font-style:italic;
+    font-style: normal;
+    font-size: 30px;
   }
   
   .nav-link {

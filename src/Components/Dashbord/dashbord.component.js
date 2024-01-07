@@ -3,7 +3,7 @@ import { FaProjectDiagram, FaFileInvoiceDollar, FaUser, FaUserLock, FaReceipt } 
 import { AiFillBank } from "react-icons/ai";
 import imag1 from '../../assets/imeges/Capture.PNG'
 import image2 from '../../assets/imeges/Capture1.PNG'
-import HomeComponent from '../Hme/index.js'
+import HomeComponent from '../Home/index.js'
 import MainComponent from '../MainComponent/main.component.js';
 import AdminComponent from '../Admin/admin.component.js';
 import { AuthRoute } from '../../services/AuthRoute.js'
@@ -12,10 +12,8 @@ import { AuthRoute } from '../../services/AuthRoute.js'
 function DashbordComponent() {
   return (
     <AuthRoute>
-
-   
-    <div>
-      <HomeComponent />
+    <div className='one'>
+      <HomeComponent/>
       <div className='row'>
         <div className='col-2'>
           <AdminComponent/>

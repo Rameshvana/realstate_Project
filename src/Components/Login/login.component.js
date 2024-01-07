@@ -14,7 +14,7 @@ function LoginComponent(){
     getloginData()
     .then(((res) => {
       console.log(res.data)
-      alert('Get login data successfull')
+      
       let user = res.data.filter((item) => item.Email == email && item.Password == password)
       if (user.length > 0){
         alert('User exist')

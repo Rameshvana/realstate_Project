@@ -1,0 +1,58 @@
+.nav-text {
+    height: 48px;
+    padding: 15px 15px;
+    font-size:19px;
+    line-height: 20px;
+    color: #fff;
+    margin-left: 15px;
+  }
+  
+  .navbar {
+    background-color: #03A9F4;
+  }
+  
+  .icon {
+    margin-right: 20px;
+    color: #fff;
+    font-size: 28px;
+  }
+
+  .sinout-card{
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    top: 60px; left: 1370px;
+    display: block;
+  }
+  .aa{
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    top: 50px; left: 1335px;
+    display: none;
+  }
+
+  .lk{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    border: solid 1px  whitesmoke;
+    background-color: #6c757d;
+    border-radius: 3px;
+    padding:5px;
+    width:8vw;
+    height: 40px;
+    border-width:0px;
+  }
+.home-span{
+  color:white;
+  font-weight: normal;
+  font-weight: 500;
+  font-size:15px;
+padding-left:15px;
+}
+
+.home-containero{
+  position: fixed;
+  width:100%;
+}

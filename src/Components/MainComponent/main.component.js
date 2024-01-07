@@ -9,7 +9,7 @@ import { useState } from "react";
 
 import './main.component.css';
 import DashbordComponent from "../Dashbord/dashbord.component";
-import HomeComponent from "../Hme";
+import HomeComponent from "../Home";
 
 function MainComponent() {
   const [activeProduct,setactiveProduct] = useState(false)

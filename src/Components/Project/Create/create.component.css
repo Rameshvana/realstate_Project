@@ -42,14 +42,15 @@ ul{
    margin-bottom: 3px;
    margin-right: 3px;
    color:#03A9F4; 
-   margin-left:10px;
+   margin-left:13px;
 }
 b{
     color:#03A9F4;
 }
 
 .nav-item{
-  color:#03A9F4;
+  color: #00BCD4 !important;
+  
 }
 .creat-links{
   display: flex;

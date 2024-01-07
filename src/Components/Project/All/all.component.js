@@ -1,6 +1,5 @@
 import { deletetheData, gettheData } from '../../../services/user.service'
 import AdminComponent from '../../Admin/admin.component'
-import HomeComponent from '../../Hme'
 import SharedComponent from '../../Shared/shared.component'
 import './all.component.css'
 
@@ -9,6 +8,7 @@ import { useNavigate } from "react-router-dom";
 import { FaHome ,FaProjectDiagram} from "react-icons/fa";
 import { MdOutlineUnarchive } from "react-icons/md";
 import { AuthRoute } from '../../../services/AuthRoute'
+import HomeComponent from '../../Home'
 
 const headers = [ 'id',' Name','Location','Description', 'Options' ]
 
@@ -20,7 +20,7 @@ function AllProjectComp(){
       gettheData()
       .then((res) => {
 
-      console.log(res.data)
+      
       setprojectData(res.data)
       })
       .catch(()=>{
@@ -44,14 +44,13 @@ function AllProjectComp(){
 
   }
 
-  function UpdatePropertyGrid(){
-    console.log('Up')
+  function UpdateProjectGrid(each){
+    console.log(each)
     
   }
 
   return(
     <AuthRoute>
-
     <div>
       <HomeComponent/>
       <div className='row'>
@@ -61,7 +60,7 @@ function AllProjectComp(){
           <div className='creat-top'>
             <button type='button' className='btn btn-primary' onClick={()=> navigate('/project-create')}>Create</button>
             <ul className='creat-links'>
-              <li className='nav-item'><a href='#'><FaHome className='creat-icon'/><b>Home</b></a></li>
+              <li className='nav-item' onClick={()=> navigate('/dashbord')}><a href='#'><FaHome className='creat-icon'/><b>Home</b></a></li>
               <li className='nav-item'><a href='#'><FaProjectDiagram className='creat-icon'/><b>Project Manage</b></a></li>
               <li className='nav-item'><MdOutlineUnarchive className='creat-icon'/><b>All</b></li>
             </ul>
@@ -78,7 +77,7 @@ function AllProjectComp(){
 
              <div className='mt-5'>
                {<SharedComponent key='A' title={"Property Type"}  headers = {headers} body={projectData} 
-               UpdatePropertyGrid={UpdatePropertyGrid} deleteItemGrid={deleteItemGrid}  />}
+               UpdatePropertyGrid={UpdateProjectGrid} deleteItemGrid={deleteItemGrid}  />}
              </div>
         </div>     
         </div>

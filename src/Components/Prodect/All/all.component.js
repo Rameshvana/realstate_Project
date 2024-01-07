@@ -1,13 +1,15 @@
 import { useEffect, useState } from 'react'
 import { deleteprodectData, getprodectData } from '../../../services/user.service'
 import AdminComponent from '../../Admin/admin.component'
-import HomeComponent from '../../Hme'
 import SharedComponent from '../../Shared/shared.component'
 import { FaHome ,FaProjectDiagram} from "react-icons/fa";
+import { FaBoxesStacked ,FaReceipt} from "react-icons/fa6";
+
 import { MdOutlineUnarchive } from "react-icons/md";
 
 import { useNavigate } from 'react-router-dom'
 import { AuthRoute } from '../../../services/AuthRoute'
+import HomeComponent from '../../Home';
 
 const headers = [ 'id',' Name','Size','Price', 'Total','Parking','Utilitu','Deduction','Refund','Price','options' ]
 
@@ -58,8 +60,8 @@ function AllProductComp(){
         <div className='creat-top'>
             <button type='button' className='btn btn-primary' onClick={()=> navigate('/prodect-create')}>Create</button>
             <ul className='creat-links'>
-              <li className='nav-item'><a href='#'><FaHome className='creat-icon'/><b>Home</b></a></li>
-              <li className='nav-item'><a href='#'><FaProjectDiagram className='creat-icon'/><b>Project Manage</b></a></li>
+              <li className='nav-item' onClick={()=> navigate('/dashbord')}><a href='#'><FaHome className='creat-icon'/><b>Home</b></a></li>
+              <li className='nav-item'><a href='#'><FaBoxesStacked className='creat-icon'/><b>Project Manage</b></a></li>
               <li className='nav-item'><MdOutlineUnarchive className='creat-icon'/><b>All</b></li>
             </ul>
             </div> 

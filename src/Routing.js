@@ -1,15 +1,14 @@
 import { Routes,Route } from "react-router-dom"
-import HomeComponent from "./Components/Hme"
 import DashbordComponent from "./Components/Dashbord/dashbord.component"
 import AdminComponent from "./Components/Admin/admin.component"
 import CreateProjectComp from "./Components/Project/Create/create.component"
 
-import { Login } from "@mui/icons-material"
 import LoginComponent from "./Components/Login/login.component"
 import CreateProdectComp from './Components/Prodect/create/create.component'
 import AllProductComp from "./Components/Prodect/All/all.component"
 import AllProjectComp from './Components/Project/All/all.component'
 import CreateSellComp from "./Components/Sell/Create/create.component"
+import AllSellComp from "./Components/Sell/All/all.component"
 
 
 
@@ -25,6 +24,7 @@ export const Routing = () => (
     <Route path='/login' element={<LoginComponent></LoginComponent>}/>
     <Route path='/prodect-all' element={<AllProductComp></AllProductComp>}/>
     <Route path='/sell-create' element={<CreateSellComp></CreateSellComp>}/>
+    <Route path='/sell-all' element={<AllSellComp></AllSellComp>}/>
   
   </Routes>
 )

@@ -11,6 +11,12 @@
       "name": "Anil",
       "location": "Hydrabad",
       "description": "Hello Anil good"
+    },
+    {
+      "id": 3,
+      "name": "realstate",
+      "location": "Warngal",
+      "description": "Hello Warngal"
     }
   ],
   "prodect": [
@@ -37,21 +43,19 @@
       "utiltycharge": "1",
       "discount": "0",
       "Description": "Hai"
-    },
-    {
-      "id": 3,
-      "projectName": "Ramesh",
-      "flattype": "C",
-      "flatnumber": "7",
-      "flatsize": "2",
-      "unitprice": "7",
-      "parkingcharge": "7",
-      "utiltycharge": "2",
-      "discount": "88",
-      "Description": "45"
     }
   ],
   "login": [
+    {
+      "Email": "admin@account.xyz",
+      "Password": 1234
+    },
+    {
+      "Email": "accountant@account.xyz",
+      "Password": 1234
+    }
+  ],
+  "sell": [
     {
       "Email": "admin@account.xyz",
       "Password": 1234

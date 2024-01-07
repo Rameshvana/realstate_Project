@@ -159,8 +159,11 @@ font-size: 13px;
 padding-right: 30px; 
 padding:10px;
 overflow-y: scroll;
-overflow-x: hidden;
-
+overflow-x: none;
+height: 86vh;
+}
+.one{
+  overflow-x: hidden;
 }
 
 .box {

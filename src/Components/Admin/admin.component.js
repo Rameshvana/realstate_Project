@@ -9,7 +9,7 @@ import { useState } from "react";
 
 import './admin.component.css'
 import DashbordComponent from "../Dashbord/dashbord.component";
-import HomeComponent from "../Hme";
+import HomeComponent from "../Home";
 
 function AdminComponent() {
   const [activeProduct,setactiveProduct] = useState(false)
@@ -65,7 +65,7 @@ function AdminComponent() {
               {activesell ? <TiMinus className="plus-icon" /> : <GoPlus className="plus-icon"/>}
               </li></a>
               <ul className={activesell ? 'a' : 'sub-menu'}>
-                <a href="#"><li className="sub-item">All</li></a>
+                <a href="/sell-all"><li className="sub-item">All</li></a>
                 <a href="/sell-create"><li className="sub-item">Create</li></a>
                 <a href="#"><li className="sub-item">Trashed</li></a>
               </ul>
