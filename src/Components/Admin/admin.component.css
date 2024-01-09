@@ -28,7 +28,7 @@
     margin: 7px 0 7px 12px;
     color: #333;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
   }
   
   .nav-links {
@@ -37,9 +37,9 @@
     border-bottom: none;
     border-top: none;
     padding:13px;
-    font-style:italic;
     overflow-y: scroll;
-    height: 78vh;
+    height: 80vh;
+    font-style: normal;
   }
   
   .nav-linkD {

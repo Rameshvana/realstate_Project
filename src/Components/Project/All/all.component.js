@@ -10,7 +10,9 @@ import { MdOutlineUnarchive } from "react-icons/md";
 import { AuthRoute } from '../../../services/AuthRoute'
 import HomeComponent from '../../Home'
 
-const headers = [ 'id',' Name','Location','Description', 'Options' ]
+const headers = [ ' Name','Location','Description','id', 'Options' ]
+let customernames = ['Move to trash','Perminently delete']
+
 
 function AllProjectComp(){
 
@@ -20,8 +22,15 @@ function AllProjectComp(){
       gettheData()
       .then((res) => {
 
-      
+       let fil = res.data.map((each) => {
+        each.name,
+        each.location,
+        each.description
+       })
+
+      console.log(fil)
       setprojectData(res.data)
+      
       })
       .catch(()=>{
       })
@@ -59,7 +68,7 @@ function AllProjectComp(){
 
           <div className='creat-top'>
             <button type='button' className='btn btn-primary' onClick={()=> navigate('/project-create')}>Create</button>
-            <ul className='creat-links'>
+            <ul className='creat-links p-10'>
               <li className='nav-item' onClick={()=> navigate('/dashbord')}><a href='#'><FaHome className='creat-icon'/><b>Home</b></a></li>
               <li className='nav-item'><a href='#'><FaProjectDiagram className='creat-icon'/><b>Project Manage</b></a></li>
               <li className='nav-item'><MdOutlineUnarchive className='creat-icon'/><b>All</b></li>
@@ -73,9 +82,20 @@ function AllProjectComp(){
               <a href='#' className='trash-box'>Trash(35)</a>
             </div>
             <input type='text' placeholder='Search' className='serch-input'/>
-            </div>  
+            </div>
+            <div className='filter-card'>
+            <select className='form-control-plaintext prodect-input am' id='projectname' required>
+                    <option>Select section</option>
+                    {customernames.map((f) => (<option value={f}>{f.name}</option>))}
+              </select>
+              <div>
+              <button type='button' className='btn btn-primary but'>Apply</button>
+              </div>
+             
+            </div>
+           
 
-             <div className='mt-5'>
+             <div >
                {<SharedComponent key='A' title={"Property Type"}  headers = {headers} body={projectData} 
                UpdatePropertyGrid={UpdateProjectGrid} deleteItemGrid={deleteItemGrid}  />}
              </div>

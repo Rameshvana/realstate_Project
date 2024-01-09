@@ -11,7 +11,8 @@ import { useNavigate } from 'react-router-dom'
 import { AuthRoute } from '../../../services/AuthRoute'
 import HomeComponent from '../../Home';
 
-const headers = [ 'id',' Name','Size','Price', 'Total','Parking','Utilitu','Deduction','Refund','Price','options' ]
+const headers = [ ' Name','Size','Price', 'Total','Parking','Utilitu','Deduction','Refund','Price','id','options' ]
+let customernames = ['Move to trash','Perminently delete']
 
 
 function AllProductComp(){
@@ -74,7 +75,16 @@ function AllProductComp(){
             </div>
             <input type='text' placeholder='Search' className='serch-input'/>
             </div>   
-          
+            <div className='filter-card'>
+            <select className='form-control-plaintext prodect-input am' id='projectname' required>
+                    <option>Select section</option>
+                    {customernames.map((f) => (<option value={f}>{f.name}</option>))}
+              </select>
+              <div>
+              <button type='button' className='btn btn-primary but'>Apply</button>
+              </div>
+             
+            </div>
           
           <div>
           {<SharedComponent key='A' title={"Property Type"}  headers = {headers} body={am} 

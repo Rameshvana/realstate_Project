@@ -43,7 +43,7 @@ function CreateProdectComp() {
       parkingcharge: document.getElementById('parkingcharge').value,
       utiltycharge: document.getElementById('utiltycharge').value,
       discount: document.getElementById('discount').value,
-      Description: document.getElementById('totalprice').value,
+      description: document.getElementById('totalprice').value,
     }
     console.log(data)
     saveprodectData(data)

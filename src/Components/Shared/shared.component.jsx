@@ -1,3 +1,4 @@
+import { CheckBox } from '@mui/icons-material';
 import './shared.component.css';
 import { MdModeEdit } from "react-icons/md";
 import { MdDelete } from "react-icons/md";
@@ -17,15 +18,16 @@ const SharedComponent = (props) => {
             <table className="table table-bordered table-hover">
                 <thead className="table-dangerj">
                     <tr>
+                        <th><div className='ch'><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" className='pt-5'/></div></th>
                         {
-                            props.headers.map((header) => <th>{header}</th>)
-
+                         props.headers.map((header) => <th>{header}</th>)
                         }
                     </tr>
                 </thead>
                 <tbody>
                     {
                         props.body.map((row) => <tr>
+                            <td>  <div className='ch'><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" className='p-5'/> </div></td>
                             {
                                 Object.values(row).map((row) => <td className='tf'>{row}</td>)
                             }

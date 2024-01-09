@@ -54,7 +54,8 @@ b{
 }
 .creat-links{
   display: flex;
-  margin:5px 10px 0px 800px;
+  margin:5px 10px 0px 600px;
+  margin-right: 40px;
   
    
 }

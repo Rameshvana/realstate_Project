@@ -21,3 +21,24 @@
    display: flex;
    justify-content: space-between; 
 }
+
+.am{
+  width:150px;
+  font-size:15px;
+  font-weight: 500;
+}
+
+.filter-card{
+  display: flex;
+  align-items: center;
+  margin-top:15px;
+}
+
+.but{
+  height: 33px;
+  text-align: center;
+  margin-bottom: 17px;
+  font-size: 14px;
+  border-radius: 2px;
+}
+

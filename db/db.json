@@ -17,23 +17,17 @@
       "name": "realstate",
       "location": "Warngal",
       "description": "Hello Warngal"
+    },
+    {
+      "id": 4,
+      "name": "food_court",
+      "location": "Hydrabad",
+      "description": "You get nice food"
     }
   ],
   "prodect": [
     {
       "id": 1,
-      "projectName": "Ramesh",
-      "flattype": "A",
-      "flatnumber": "1",
-      "flatsize": "1",
-      "unitprice": "1",
-      "parkingcharge": "0",
-      "utiltycharge": "1",
-      "discount": "0",
-      "Description": "Hai"
-    },
-    {
-      "id": 2,
       "projectName": "Ramesh",
       "flattype": "A",
       "flatnumber": "1",

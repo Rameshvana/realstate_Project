@@ -22,6 +22,7 @@ function CreateSellComp() {
       employename:document.getElementById('employename').value,
       date:document.getElementById('date').value
     }
+    //{customername,projectname,productid,employename,date}
     console.log(data)
     savesellData(data)
     .then(function(){
