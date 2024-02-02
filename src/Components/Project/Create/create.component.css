@@ -54,10 +54,14 @@ b{
 }
 .creat-links{
   display: flex;
-  margin:5px 10px 0px 600px;
-  margin-right: 40px;
+  margin:5px 50px 0px 600px;
+  
   
    
+}
+.hn{
+ margin-right: 0px;
+ margin-left: 1070px;
 }
 .creat-top{
   display: flex;

@@ -70,9 +70,9 @@ function CreateProdectComp() {
 
             <div className='creat-top'>
               <button type='button' className='btn btn-primary' onClick={() => navigate('/dashbord')}>Back</button>
-              <ul className='creat-links'>
-                <li className='nav-item' onClick={()=> navigate('/prodect-all')}><a href=''><FaHome className='creat-icon' /><b>Home</b></a></li>
-                <li className='nav-item'><a href='#'><FaBoxesStacked className='creat-icon' /><b>Project Manage</b></a></li>
+              <ul className='creat-links hn'>
+                <li className='nav-item' ><a href='3'><FaHome className='creat-icon' /><b>Home</b></a></li>
+                <li className='nav-item' onClick={()=> navigate('/prodect-all')}><a href=''><FaBoxesStacked className='creat-icon' /><b>Project Manage</b></a></li>
                 <li className='nav-item'><MdOutlineUnarchive className='creat-icon' /><b>Create</b></li>
               </ul>
               <div>
@@ -119,6 +119,7 @@ function CreateProdectComp() {
 
 
           </div>
+
           </form>
 
   

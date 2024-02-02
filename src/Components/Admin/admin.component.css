@@ -95,14 +95,14 @@
   }
   .copyrigth{
   font-weight: 500;
-  font-size:14px;
+  font-size:15px;
   display: block;
   padding:15px 1px 1px 20px;
   border:solid 1px whitesmoke;
   position: fixed;
   bottom: 0;
   right: 10;
-  width:229px;
+  width:15vw;
   background-color: white;
   }
   .copy-span{

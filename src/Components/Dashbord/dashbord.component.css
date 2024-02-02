@@ -151,8 +151,8 @@ box-shadow: 1px 1px 2px 2px grey;
 }
 
 
-.am{
-font-size: 13px;          
+.quick-text{
+font-size: 14px;          
 }
 
 .dashbord-container{
@@ -160,7 +160,7 @@ padding-right: 30px;
 padding:10px;
 overflow-y: scroll;
 overflow-x: none;
-height: 86vh;
+height: 92vh;
 }
 .one{
   overflow-x: hidden;
@@ -232,8 +232,8 @@ flex-wrap: wrap;
 }
 
 .dash-img{
-   height: 55vh; 
-   width:42vw;
+   height: 47vh; 
+   width:40vw;
 }
 .images-card{
   display: flex;

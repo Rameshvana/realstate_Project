@@ -53,9 +53,9 @@ function CreateSellComp() {
           <form onSubmit={saveSellsData}>
             <div className='creat-top'>
               <button type='button' className='btn btn-primary' onClick={() => navigate('/dashbord')}>Back</button>
-              <ul className='creat-links'>
-                <li className='nav-item' onClick={()=> navigate('/sell-all')}><a href=''><FaHome className='creat-icon' /><b>Home</b></a></li>
-                <li className='nav-item'><a href='#'><FaDolly className='creat-icon' /><b>Sell Manage</b></a></li>
+              <ul className='creat-links hn'>
+                <li className='nav-item' ><a href='#'><FaHome className='creat-icon' /><b>Home</b></a></li>
+                <li className='nav-item' onClick={()=> navigate('/sell-all')}><a href=''><FaDolly className='creat-icon' /><b>Sell Manage</b></a></li>
                 <li className='nav-item'><MdOutlineUnarchive className='creat-icon' /><b>Create</b></li>
               </ul>
               <div>

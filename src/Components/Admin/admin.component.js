@@ -192,7 +192,7 @@ function AdminComponent() {
           </ul>
         <div className="copyrigth">
           <p>Powered By 
-          <span href='#' className="copy-span">E-Account</span> <br/>
+          <span className="copy-span"><a href="">E-Account</a></span> <br/>
            Version: 2.0.0
           </p>
         </div> 

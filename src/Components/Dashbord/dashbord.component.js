@@ -103,29 +103,29 @@ function DashbordComponent() {
             <div className='quick'>
               <h5 className='mb-3'>Quick Access</h5>
               <div className='boxes'>
-                <div href='#' className='box'><h6 className='am'>Project</h6></div>
-                <div href='#' className='box b1'><h6 className='am'>Product</h6></div>
-                <div href='#' className='box b2'><h6 className='am'>Sell</h6></div>
-                <div href='#' className='box b3'><h6 className='am'>Purchase</h6></div>
-                <div href='#' className='box b4'><h6 className='am'>Purchase Order</h6></div>
-                <div href='#' className='box b1'><h6 className='am'>Vender</h6></div>
-                <div href='#' className='box b2'><h6 className='am'>Employee</h6></div>
-                <div href='#' className='box b3'><h6 className='am'>Customer</h6></div>
-                <div href='#' className='box b8'><h6 className='am'>Ledger</h6></div>
-                <div href='#' className='box b1'><h6 className='am'>Trial Balance</h6></div>
-                <div href='#' className='box b5'><h6 className='am'>Cost Of Revinue</h6></div>
-                <div href='#' className='box b6'><h6 className='am'>Profit or Loss Account</h6></div>
-                <div href='#' className='box b7'><h6 className='am'>Retained Earnings</h6></div>
-                <div href='#' className='box b9'><h6 className='am'>Fixed Asset Shedule</h6></div>
-                <div href='#' className='box b7'><h6 className='am'>Balance Sheet</h6></div>
-                <div href='#' className='box b10'><h6 className='am'>Cash Flow</h6></div>
-                <div href='#' className='box b8'><h6 className='am'>Recieve Payment</h6></div>
-                <div href='#' className='box b9'><h6 className='am'>Legder Type</h6></div>
-                <div href='#' className='box b5'><h6 className='am'>Ledger Group</h6></div>
-                <div href='#' className='box b12'><h6 className='am'>Debit Voucher</h6></div>
-                <div href='#' className='box b11'><h6 className='am'>Credit Voucher</h6></div>
-                <div href='#' className='box b13'><h6 className='am'>Journal Voucher</h6></div>
-                <div href='#' className='box b5'><h6 className='am'>Contra Voucher</h6></div>
+                <a href="/project-all" className='box'><h6 className='quick-text'>Project</h6></a>
+                <a href="/prodect-all" className='box b1'><h6 className='quick-text'>Product</h6></a>
+                <a href="/sell-all" className='box b2'><h6 className='quick-text'>Sell</h6></a>
+                <div href='#' className='box b3'><h6 className='quick-text'>Purchase</h6></div>
+                <div href='#' className='box b4'><h6 className='quick-text'>Purchase Order</h6></div>
+                <div href='#' className='box b1'><h6 className='quick-text'>Vender</h6></div>
+                <div href='#' className='box b2'><h6 className='quick-text'>Employee</h6></div>
+                <div href='#' className='box b3'><h6 className='quick-text'>Customer</h6></div>
+                <div href='#' className='box b8'><h6 className='quick-text'>Ledger</h6></div>
+                <div href='#' className='box b1'><h6 className='quick-text'>Trial Balance</h6></div>
+                <div href='#' className='box b5'><h6 className='quick-text'>Cost Of Revinue</h6></div>
+                <div href='#' className='box b6'><h6 className='quick-text'>Profit or Loss Account</h6></div>
+                <div href='#' className='box b7'><h6 className='quick-text'>Retained Earnings</h6></div>
+                <div href='#' className='box b9'><h6 className='quick-text'>Fixed Asset Shedule</h6></div>
+                <div href='#' className='box b7'><h6 className='quick-text'>Balance Sheet</h6></div>
+                <div href='#' className='box b10'><h6 className='quick-text'>Cash Flow</h6></div>
+                <div href='#' className='box b8'><h6 className='quick-text'>Recieve Payment</h6></div>
+                <div href='#' className='box b9'><h6 className='quick-text'>Legder Type</h6></div>
+                <div href='#' className='box b5'><h6 className='quick-text'>Ledger Group</h6></div>
+                <div href='#' className='box b12'><h6 className='quick-text'>Debit Voucher</h6></div>
+                <div href='#' className='box b11'><h6 className='quick-text'>Credit Voucher</h6></div>
+                <div href='#' className='box b13'><h6 className='quick-text'>Journal Voucher</h6></div>
+                <div href='#' className='box b5'><h6 className='quick-text'>Contra Voucher</h6></div>
 
               </div>
             </div>
